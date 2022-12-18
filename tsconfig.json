@@ -1,0 +1,11 @@
+{
+  "extends": "@tsconfig/node18/tsconfig.json",
+  "compilerOptions": {
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "outDir": "./dist",
+    "sourceMap": true
+  },
+  "include": ["./**/src/*.ts", "es-21/src/routes/server.test.ts"],
+  "exclude": ["./**/src/*.test.ts"]
+}
